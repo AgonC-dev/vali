@@ -2,6 +2,7 @@
 * {
     margin: 0;
     padding: 0;
+    border: 1px solid red;
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -313,7 +314,10 @@ nav ul li a.active::after {
     .hero h1 {
         font-size: 32px;
     }
-
+    
+    .price-tag {
+        margin-top: 20px;
+    }
   
 
     .price {
